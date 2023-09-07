@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="re.css">
+    <title>Reports - Deposit Monitoring System</title>
+</head>
+<body>
+    <header>
+        <h1>Deposit Monitoring System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="acc.html">Account</a></li>
+            <li><a href="tr.html">Transactions</a></li>
+            <li class="active"><a href="re.html">Reports</a></li>
+            <li><a href="transfer.html">Transfer Money</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="reports">
+            <h2>Generate Reports</h2>
+            <form class="report-form">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                <button class="btn">Generate Report</button>
+            </form>
+            <div class="generated-report">
+                <!-- Display generated report here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Deposit Monitoring System</p>
+    </footer>
+</body>
+</html>
